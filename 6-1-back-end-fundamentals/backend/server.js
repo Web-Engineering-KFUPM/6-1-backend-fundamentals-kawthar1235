@@ -25,7 +25,9 @@ app.get("/about", (req, res) => {
 
 // TODO 7: Create the "/student" route
 
-
+app.get("/student", (req, res) => {
+  res.send("Student Name: Kawthar");
+});
 
 // TODO 4: Start the server on port 3000
 
